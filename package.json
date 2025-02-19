@@ -1,0 +1,17 @@
+{
+  "name": "react-ecommerce",
+  "version": "1.0.0",
+  "description": "E-commerce store using React.js and Firebase",
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "firebase": "^9.6.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "netlify deploy --prod"
+  }
+}
